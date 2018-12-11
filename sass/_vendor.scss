@@ -41,13 +41,13 @@ code[class*=language-], pre[class*=language-], pre code {
 
 a {
   cursor: pointer;
-  color: #ff2e88;
+  color: #ccc;
   text-decoration: none;
-  border-bottom: 1px solid #ff2e88
+  border-bottom: 1px solid #00ff00
 }
 
 a:hover {
-  background-color: #ff2e88;
+  background-color: #006600;
   color: #fff
 }
 
@@ -218,7 +218,7 @@ a:hover {
   margin-top: 0
 }
 
-.hack h2, .hack h3, .hack h4, .hack h5, .hack h6 {
+.hack header, .hack h2, .hack h3, .hack h4, .hack h5, .hack h6 {
   position: relative;
   margin-bottom: 1.75rem
 }
@@ -227,24 +227,20 @@ a:hover {
   display: inline
 }
 
-.hack h2:before {
+.hack h3:before {
   content: "## "
 }
 
-.hack h3:before {
+.hack h4:before {
   content: "### "
 }
 
-.hack h4:before {
+.hack h5:before {
   content: "#### "
 }
 
-.hack h5:before {
-  content: "##### "
-}
-
 .hack h6:before {
-  content: "###### "
+  content: "##### "
 }
 
 .hack li {
